@@ -12,7 +12,11 @@ ExcelFile::ExcelFile(const QString& excelLoadPath,  QObject *parent)
     header.setFontSize(14);
 #pragma endregion }
 
+<<<<<<< HEAD
 #pragma region Чтение xml файла структуру контейнеров {
+=======
+#pragma region Чтение xml {
+>>>>>>> domesticExcel
 
     if(not excelLoadPath.isEmpty()) {
         QXlsx::Document xlsxFile(excelLoadPath);
@@ -80,7 +84,11 @@ const void ExcelFile::CreateExcelDocument(const std::vector<std::pair<SheetName,
 
 
 
+<<<<<<< HEAD
 const QStringList ExcelFile::GetSheetsNames() const { return {excelFileData.begin()->first, excelFileData.end()->first};}
+=======
+const QStringList ExcelFile::GetSheetsNames() const { return {excelFileData.begin()->first, excelFileData.end()->first} ;}
+>>>>>>> domesticExcel
 const std::vector<std::pair<SheetName,Sheet>>& ExcelFile::GetSheets() const { return excelFileData; }
 
 

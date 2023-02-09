@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 8.0.1, 2023-01-25T19:12:59. -->
+=======
+<!-- Written by QtCreator 8.0.1, 2023-02-01T19:36:11. -->
+>>>>>>> domesticExcel
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
